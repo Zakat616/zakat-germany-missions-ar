@@ -1,0 +1,58 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 6400.408 628.612 10147.96
+  m_sTitle "Правила"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Условности для всех:"\
+  "- Во время подготовки запрещено начинать движение на транспорте, или выдвигаться на позиции пешим ходом. Сообщение о подготовке отображается на HUD."\
+  "-Запрещено лутаться с ящиков чужих отделений. У каждого отделения есть свои ящики со снаряжением и медициной."\
+  "- Запрещено снимать или переодевать форму. Смена головных уборов на союзные разрешена."\
+  "- Запрещено использовать вражескую форму, бронежилеты, разгрузки и головные уборы. Рюкзаки использовать можно."\
+  "- Каждый вертолет имеет возможность ремонта, перезарядки и дозаправки. Техника и ресурсы для этого находятся на стартовых позициях."\
+  "- Не используйте игровой чат. Сообщить админу о проблеме можно иным способом."
+  m_aVisibleForFactions {
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+ {
+  coords 6399.584 628.612 10151.964
+  m_sTitle "Вводная"
+  m_sTextData "После операции США \"Мертвый Якорь\" и применения тактического ЯО, горячую фазу конфликта уже не остановить. Страны ОВД перешли в наступление на территории Европы."\
+  ""\
+  "28 августа 1988г войска Национальной народной армии должны перейти границу ГДР и ФРГ, ликвидировать возможное сопротивление и организовать плацдарм, для дальнейшего продвижения войск ОВД к Рурскому бассейну."
+  m_aVisibleForFactions {
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6400.408 628.612 10147.96
+  m_sTitle "Задача NVA"
+  m_sTextData "1)Удержать аэродром"
+  m_aVisibleForFactions {
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 2
+ }
+ {
+  coords 6400.408 628.612 10147.96
+  m_sTitle "Задача Bundeswehr"
+  m_sTextData "1) Захватить аэродром"
+  m_aVisibleForFactions {
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+}

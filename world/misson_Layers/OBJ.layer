@@ -1,0 +1,127 @@
+$grp GenericEntity : "{3D78D7D606FF9818}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_NoCapture.et" {
+ flag7 {
+  coords 7977.923 840.195 7554.379
+ }
+ flag8 {
+  coords 7980.579 840.195 7557.6
+ }
+ flag5 {
+  coords 7897.023 837.091 7592.56
+ }
+ flag6 {
+  coords 7927.087 837.001 7630.989
+ }
+ flag {
+  coords 8076.959 776.77 5423.842
+ }
+ flag2 {
+  coords 8069.996 776.77 5422.144
+ }
+ flag3 {
+  coords 8071.217 776.77 5415.84
+ }
+ flag4 {
+  coords 8078.453 776.77 5417.229
+ }
+}
+$grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ controlairfield {
+  components {
+   GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+    m_bUseDescriptionGenerator 0
+    m_aControlLogics {
+     GUB_ZoneControlLogic "{690F6CCDF1B094D4}" {
+      m_sZonePreviewName "Военный аэродром"
+      m_sSuccessObjectiveNames {
+       "obj1"
+      }
+      m_Timer GUB_ZoneControlTimer "{690F6CCDEDD540AD}" {
+       timeToComplete 150
+      }
+      m_ZoneController GUB_ZoneController "{690F6CCDD8338B32}" {
+       m_sZoneEntityName "TriggerAirfieldUSSR"
+      }
+      m_FlagController GUB_FlagController "{690F6CCD29285066}" {
+       m_aFlagNames {
+        "flag"
+        "flag2"
+        "flag3"
+        "flag4"
+       }
+       m_fStartFactionKey "US"
+       m_fEndFactionKey "USSR"
+      }
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{690F6CCC95A6E524}" {
+        m_fComparisonMultiplier 2
+        m_iOperator GREATER
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 6393.486 629.443 10149.887
+ }
+ controlmilbase {
+  components {
+   GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+    m_bUseDescriptionGenerator 0
+    m_aControlLogics {
+     GUB_ZoneControlLogic "{690F6CCDF1B094D4}" {
+      m_sZonePreviewName "Военная база"
+      m_Timer GUB_ZoneControlTimer "{690F6CCDEDD540AD}" {
+       timeToComplete 150
+      }
+      m_ZoneController GUB_ZoneController "{690F6CCDD8338B32}" {
+       m_sZoneEntityName "TriggerMilBaseUSSR"
+      }
+      m_FlagController GUB_FlagController "{690F6CCD29285066}" {
+       m_aFlagNames {
+        "flag5"
+        "flag6"
+        "flag7"
+        "flag8"
+       }
+       m_fStartFactionKey "US"
+       m_fEndFactionKey "USSR"
+      }
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{690F6CCC95A6E524}" {
+        m_fComparisonMultiplier 2
+        m_iOperator GREATER
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 6404.489 629.443 10156.956
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ obj1 {
+  coords 6399.74 629.145 10152.284
+  m_sTitle "Военная база захвачена"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 6389.656 629.145 10157.272
+  m_sTitle "Военный аэродром защищен"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 6399.74 629.145 10152.284
+  m_sTitle "Военная база защищена"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 6397.805 629.145 10157.252
+  m_sTitle "Военный аэродром захвачен"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+}

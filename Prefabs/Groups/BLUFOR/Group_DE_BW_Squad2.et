@@ -1,0 +1,106 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Bundeswehr Squad"
+    m_Image "{5810E35DFC2BAA53}UI/PreviewImages/Groups/BLUFOR/US/5_BCR.edds"
+    m_aAuthoredLabels + {
+     TRAIT_ARMORPIERCING TRAIT_SUPPRESSIVE TRAIT_EXPLOSIVE
+    }
+    m_aAutoLabels {
+     GROUPSIZE_MEDIUM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 300
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{690EB7348C1C55AF}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{690EB7348C1C5593}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Icons INFANTRY
+    m_Amplifier TEAM
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C2943AB0C}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{690EB7348C1C55E9}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{690EB7348C1C55EB}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{690EB7348C1C55EC}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{690EB7348C1C55ED}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{690EB7348C1C55EE}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_aUnitPrefabSlots {
+  "{85261D5B04BFA7EE}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_SL.et" "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_GL.et" "{9A234C5857D92187}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Medic.et" "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Sharpshooter.et" "{33A6B925C7E45437}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AT.et" "{6E1E87ECA5F5A7EA}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_LMG.et" "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et" "{90C99DC7B3147D3C}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_AMG.et" "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_RTO.et"
+ }
+}

@@ -1,0 +1,85 @@
+GenericEntity : "{3C9119EDA99AAA76}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Large_Top_Soviet.et" {
+ coords 8766.965 832.001 9134.374
+ angles 0 -84.333 0
+}
+$grp SCR_DestructibleBuildingEntity : "{4E331E7D8DAD1EAD}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01.et" {
+ {
+  coords 8748.5 0 9101.83
+  angles -4.604 -30.805 2.74
+ }
+ {
+  coords 8731.24 0 9096.51
+  angles -2.16 49.13 -5.215
+ }
+ {
+  coords 8765.69 0 9118.02
+  angles -3.074 -78.879 4.597
+ }
+}
+StaticModelEntity : "{8CDB9C117669AF4A}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_USSR_01.et" {
+ coords 8697.857 0.859 9254.288
+}
+$grp GenericEntity : "{A700AD9077074654}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Large_Soviet.et" {
+ {
+  coords 8719.114 832.219 9114.045
+  angles 0 63.596 0
+ }
+ {
+  coords 8710.569 830.742 9131.024
+  angles 0 67.459 0
+ }
+ {
+  coords 8699.988 829.597 9145.535
+  angles 0 54.768 0
+ }
+ {
+  coords 8769.063 830.413 9155.518
+  angles 0 -63.326 0
+ }
+ {
+  coords 8690.39 827.987 9161.6
+  angles -1.571 67.494 -6.107
+ }
+ {
+  coords 8774.52 828.655 9172.68
+  angles -3.906 -75.047 10.965
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{C768E842A6F11CEE}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet.et" {
+ {
+  coords 8757.76 0 9107.15
+  angles -5.181 -36.6 0.511
+  {
+   GenericEntity {
+    ID "5690D0044793B50B"
+    coords 0 0 0
+    angles -5.181 -0.127 0.511
+   }
+  }
+ }
+ {
+  coords 8740.155 -0.001 9090.371
+  angles 0 -15.126 0
+  {
+   GenericEntity {
+    ID "5A04A8A7B4EC66AE"
+    coords 0 0.001 0
+    angles -4.312 -0.044 1.168
+   }
+  }
+ }
+}
+$grp GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
+ {
+  coords 8107.467 764.062 5411.674
+  angles 0 -99.233 0
+ }
+ {
+  coords 8107.967 764.062 5408.712
+  angles 0 -99.233 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{CBE5E0D2DC08E178}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSRMedical_01.et" {
+ coords 8727.14 0 9104.9
+ angles 0.16 68.143 -6.784
+}

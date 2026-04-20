@@ -1,0 +1,401 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ US_G_301_M {
+  coords 3647.35 837.562 1851.13
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Диско 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_302_M {
+  coords 3646.99 837.562 1859.59
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Диско 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_000_M {
+  coords 3659.992 838.323 1910.387
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Атлас 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_300_M {
+  coords 3606.065 838.511 1862.582
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Диско 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_200_M {
+  coords 3660.18 837.914 1906.48
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Хаос 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_201_M {
+  coords 3669.51 837.867 1899.48
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Хаос 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_202_M {
+  coords 3669.07 837.801 1889.26
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Хаос 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_100_M {
+  coords 6902.82 790.958 3490.48
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Блэйзер 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_101_M {
+  coords 6894.26 790.938 3498.75
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Блэйзер 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 3648.54 837.562 1854.77
+  angles -4.192 182.941 -1.081
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 2.588
+  m_sDescription "#M113-EditableEntity_M113_APC_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3648.17 837.562 1863.24
+  angles -4.192 182.955 -1.081
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 2.588
+  m_sDescription "#M113-EditableEntity_M113_APC_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3650.062 838.212 1893.634
+  angles -2.696 180.744 0.86
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 armed PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3650.661 838.18 1887.654
+  angles -2.748 184.56 0.679
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3649.132 838.19 1900.03
+  angles -2.682 182.92 -0.137
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3648.75 838.031 1905.55
+  angles -2.688 179.943 -1.786
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 Roof PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6897.91 790.938 3499.16
+  angles 0 42.28 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 Roof PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6892.87 790.938 3503.76
+  angles 0 42.28 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 Roof PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3534.4 839.794 1852.61
+  angles -9.436 182.161 2.563
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "M923A1 Arsenal PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6903.06 790.956 3494.84
+  angles -2.735 39.212 -0.925
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "M923A1 Covered PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3534.242 839.52 1848.173
+  angles -5.536 182.139 4.249
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "M923A1 Repair PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3534.369 839.561 1856.934
+  angles -8.603 180.202 2.423
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "M923A1 Fuel PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3602.343 838.571 1862.85
+  angles 1.719 94.168 1.023
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 6.487
+  m_sDescription "UH1H Gunship PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+}

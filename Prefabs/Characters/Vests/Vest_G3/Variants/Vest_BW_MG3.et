@@ -1,0 +1,81 @@
+GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_assembled_base.et" {
+ ID "526492DCB8322C65"
+ components {
+  ClothNodeStorageComponent "{6478F237506572A8}" {
+   Attributes SCR_ItemAttributeCollection "{690D6A890B689361}" {
+    ItemDisplayName UIInfo "{690D6A890B68935D}" {
+     Name "Bundeswehr LBE"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{690D6A890B689350}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{690D6A890B689352}" {
+      CameraDistanceToItem 4
+      CameraOffset 0 0.05 0
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   Priority 10
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 3300
+   MaxItemSize 15 15 15
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Suspenders {
+     Prefab "{B95BD66EA8F863C8}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.et"
+    }
+    LoadoutSlotInfo MagPouch {
+     Offset -0.1307 0.0084 0.0898
+     Angles 1.068 -41.7571 0.6541
+     Prefab "{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     DeflatedOffset -0.1444 0.0678 0.1258
+     DeflatedAngles -9.4973 -44.8 0
+    }
+    LoadoutSlotInfo MagPouch2 {
+     Offset 0.1342 0.0087 0.0911
+     Angles 4.2881 44.6383 -1.8031
+     Prefab "{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     DeflatedOffset 1.2391 0.0699 0.1196
+     DeflatedAngles -8.673 44.3001 0
+    }
+    LoadoutSlotInfo Etool {
+     Offset -0.1372 0.0237 -0.0637
+     Angles 0 -115.9619 0
+     Prefab "{7C9344BEE72FF105}Prefabs/Items/Equipment/Accessories/ETool_BW/ETool_BW_carrier_base.et"
+     DeflatedOffset -0.1889 0.0237 -0.047
+     DeflatedAngles 0 -115.9619 0
+    }
+    LoadoutSlotInfo Buttpack {
+     Offset 0 0.0168 -0.1189
+     Angles 0 180 0
+     Prefab "{EEEC1482FC2FC742}Prefabs/Characters/Vests/Vest_ALICE/Vest_BW_Buttpack.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Enabled 0
+     Prefab "{02DF51DB063ABD36}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid.et"
+    }
+    LoadoutSlotInfo Cateen {
+     Enabled 0
+     Prefab "{630FB4AD4A735264}Prefabs/Items/Equipment/Canteens/Canteen_US_01.et"
+     DeflatedOffset 0.1767 -0.0336 -0.1492
+     DeflatedAngles 4.3917 -54.0679 1.0887
+    }
+    LoadoutSlotInfo Bayonet {
+     Enabled 0
+     Prefab "{EE7FBAD35CA9D0F2}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9.et"
+     DeactivatePhysicsOnAtaching 1
+     DeflatedOffset 0.1872 0.071 0.0202
+     DeflatedAngles -1.9002 71.85451 -1.9816
+    }
+   }
+  }
+ }
+}

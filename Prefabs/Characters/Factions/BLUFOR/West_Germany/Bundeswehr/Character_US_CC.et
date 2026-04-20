@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{E0E0F1E5CAA8DDD8}UI/PreviewImages/Characters/BLUFOR/US/BW/4_BCR.edds"
+    m_aAutoLabels {
+     ROLE_LEADER TRAIT_VEHICLE_CREW
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 -48.472 0
+}

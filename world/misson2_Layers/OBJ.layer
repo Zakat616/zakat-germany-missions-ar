@@ -1,0 +1,12 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6399.74 629.145 10152.284
+  m_sTitle "Объект 33 уничтожен"
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 6389.656 629.145 10157.272
+  m_sTitle "Объект 33 не удалось уничтожить"
+  m_sFactionKey "US"
+ }
+}

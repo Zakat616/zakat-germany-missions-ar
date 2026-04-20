@@ -1,0 +1,36 @@
+$grp Turret : "{7F5786A00B36D0D8}Prefabs/Weapons/Tripods/Deployable_Tripod_M3_M2HB.et" {
+ {
+  coords 6900.069 790.938 3489.124
+  angles 0 42.338 0
+ }
+ {
+  coords 6892.229 790.938 3496.163
+  angles 0 42.338 0
+ }
+}
+$grp GenericEntity : "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et" {
+ {
+  coords 6899.6 790.938 3489.4
+  angles 0 -52.458 0
+ }
+ {
+  coords 6899.4 790.938 3489.587
+  angles 0 -52.458 0
+ }
+ {
+  coords 6899.22 790.938 3489.72
+  angles 0 -52.458 0
+ }
+ {
+  coords 6892.94 790.938 3495.31
+  angles 0 -52.458 0
+ }
+ {
+  coords 6893.1 790.938 3495.141
+  angles 0 -52.458 0
+ }
+ {
+  coords 6893.27 790.938 3494.948
+  angles 0 -52.458 0
+ }
+}

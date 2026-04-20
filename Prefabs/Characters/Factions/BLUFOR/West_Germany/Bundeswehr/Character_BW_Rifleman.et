@@ -1,0 +1,115 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames +{
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Bundeswehr Schütze"
+    IconSetName "EditableEntity_Character_Rifleman"
+    m_Image "{9F00F3EB53C3B51A}UI/PreviewImages/Characters/BLUFOR/US/BW/3_BCR.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     SIZE_M ROLE_RIFLEMAN
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{690EB733B0839664}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{690EB733B0839672}" {
+      m_sVariantPrefab "{2EDF1F3F0EB2D058}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_Rifleman_Variant1.et"
+     }
+    }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   Enabled 0
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{510FC1582531D636}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/ARY_Rifle_G3A3_SlimOD.et"
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+    Name "Soldat"
+    Alias ""
+    Surname ""
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{9270C49496682502}Prefabs/Characters/Uniforms/Jacket_DE_BDU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{D34DA23CE1785E8C}Prefabs/Characters/Uniforms/Pants_DE_M65.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{2E35AC876DD6849D}Prefabs/Characters/Footwear/CombatBoots_DE_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3C67C36658257D7B}Prefabs/Characters/Vests/Vest_G3/Variants/Vest_BW_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Pants/Pants_DE_M65.et"
+     PrefabsToSpawn {
+      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/Suspenders/Vest_ALICE_suspenders_2.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{9F3ABF7CBE87860C}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_BRD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690EB733B0839643}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/MagPouch/Pouch_DE_Bundeswehr_G3.et"
+     PrefabsToSpawn {
+      "{A4C933C99EAD4A0C}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM111_Ball.et" "{A4C933C99EAD4A0C}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM111_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690EB733B0839644}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/MagPouch2/Pouch_DE_Bundeswehr_G3.et"
+     PrefabsToSpawn {
+      "{A4C933C99EAD4A0C}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM111_Ball.et" "{A4C933C99EAD4A0C}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM111_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690EB733B0839646}" {
+     TargetStorage "Vest/Vest_BW_rifleman.et/Buttpack/Vest_BW_Buttpack.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

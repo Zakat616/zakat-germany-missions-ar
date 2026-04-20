@@ -1,0 +1,205 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+  }
+  SCR_Faction "{68CA30F207EBC1F2}" {
+   FactionKey "BDE"
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{68CA30F1C8FBE21A}" {
+     m_eEntityCatalogType NONE
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{68CA30F14421805C}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F16538F2C8}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F161ABE91A}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F11F14AE1E}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F119073749}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F116493D80}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1143F7DEC}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1119416F9}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F10EE6BCDF}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1443DA4CF}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F43BCE89D1}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F437EDC279}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F4338BDF38}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F431791771}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F100AFC027}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1042469AA}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F13DC41DA7}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F13B754607}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1396EBC36}" {
+       m_bEnabled 0
+      }
+     }
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{68CA30F14438B966}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{68CA30F14438B967}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{68CA30F14431EF9E}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{68CA30F144325F02}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F126079B99}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{68CA30F1C4C0D7C5}" {
+     m_eEntityCatalogType NONE
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{68CA30F1FCEB0937}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEB0938}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEB00E3}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEB00E7}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEB82C3}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEB8236}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEA58E4}" {
+       m_bEnabled 0
+      }
+      SCR_EntityCatalogEntry "{68CA30F1FCEA3031}" {
+       m_bEnabled 0
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{68CA30F3E07C2E0B}" {
+     m_eEntityCatalogType NONE
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{68CA30F1AAD2E473}" {
+       m_sIdentifier "0"
+       m_aEntities {
+        SCR_EntityCatalogEntry "{68CA30F1AAD2E478}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAD2E463}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAED01B7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAECE0E5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEF8ACA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEF8E4D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEF1E97}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEF5018}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEE9909}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEE7D23}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE9CCD7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE93FE6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE828AA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE82405}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE8402C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEB4E20}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAEA85A4}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{68CA30F1AAE49CC6}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{68CA30F1AAE49CC5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE4EAF7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE4105A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68CA30F1AAE432BE}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalog "{68CA30F3B90FF0C7}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalogMultiList "{68CA30F3B25365CC}" {
+     m_eEntityCatalogType NONE
+    }
+   }
+  }
+ }
+}

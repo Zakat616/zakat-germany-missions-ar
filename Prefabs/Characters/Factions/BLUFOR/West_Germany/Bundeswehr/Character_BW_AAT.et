@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{21F0928B108D5B11}UI/PreviewImages/Characters/BLUFOR/US/BW/1_BCR.edds"
+    m_aAutoLabels {
+     SIZE_M ROLE_AMMOBEARER
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 -36.747 0
+}

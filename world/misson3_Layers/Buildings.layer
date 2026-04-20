@@ -1,0 +1,321 @@
+GenericEntity : "{04EEF67CFC8BAD4D}Prefabs/Props/Agriculture/Beehive_01/Beehive_01_small_yellow.et" {
+ coords 7811.51 756.295 4185.54
+ angles -3.576 0 -1.786
+}
+$grp GenericEntity : "{2A5E5BD2EF404977}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighPlastic_S_US_01.et" {
+ {
+  coords 6931.929 798.278 3484.635
+  angles 0 33.214 0
+ }
+ {
+  coords 6936.744 798.953 3471.698
+  angles 0 97.52 0
+ }
+}
+GenericEntity : "{3C9119EDA99AAA76}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Large_Top_Soviet.et" {
+ coords 8766.965 832.001 9134.374
+ angles 0 -84.333 0
+}
+$grp SCR_DestructibleBuildingEntity : "{4E331E7D8DAD1EAD}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01.et" {
+ {
+  coords 8748.5 0 9101.83
+  angles -4.604 -30.805 2.74
+ }
+ {
+  coords 8731.24 0 9096.51
+  angles -2.16 49.13 -5.215
+ }
+ {
+  coords 8765.69 0 9118.02
+  angles -3.074 -78.879 4.597
+ }
+}
+$grp GenericEntity : "{520626A206926F47}Prefabs/Props/Agriculture/Farm/Haystack_01.et" {
+ {
+  coords 7830.93 758.812 4161.44
+  angles -6.759 26.773 -4.389
+ }
+ {
+  coords 7829.715 759.219 4158.165
+  angles -6.627 23.712 -4.835
+ }
+ {
+  coords 7829.24 758.681 4162.11
+  angles -5.82 23.673 -4.483
+ }
+ {
+  coords 7827.83 759.038 4159.02
+  angles -6.627 23.712 -4.835
+ }
+ {
+  coords 7827.15 759.252 4157.5
+  angles -7.783 23.785 -4.38
+ }
+ {
+  coords 7830.62 759.021 4159.74
+  angles -5.82 23.673 -4.483
+ }
+ {
+  coords 7828.799 759.41 4156.66
+  angles -7.783 23.785 -4.38
+ }
+ {
+  coords 7828.59 758.862 4160.51
+  angles -5.82 23.673 -4.483
+ }
+ {
+  coords 7538.35 780.657 3979.97
+  angles -3.798 25.44 -17.66
+ }
+ {
+  coords 7537.26 780.994 3976.68
+  angles -4.707 22.489 -17.437
+ }
+ {
+  coords 7536.65 780.474 3980.61
+  angles -3.109 22.254 -16.743
+ }
+ {
+  coords 7535.36 780.772 3977.5
+  angles -5.509 22.629 -17.806
+ }
+ {
+  coords 7534.73 780.924 3975.97
+  angles -5.017 22.671 -16.628
+ }
+ {
+  coords 7538.1 780.85 3978.26
+  angles -3.596 22.219 -17.886
+ }
+ {
+  coords 7536.4 781.136 3975.16
+  angles -4.679 22.63 -17.441
+ }
+ {
+  coords 7536.06 780.628 3979
+  angles -3.564 22.275 -17.877
+ }
+}
+$grp GenericEntity : "{5519B339E041781E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_US_01.et" {
+ {
+  coords 6950.224 796.456 3423.01
+  angles 0 27.37 0
+ }
+ {
+  coords 6931.95 798.393 3485.023
+  angles 0 48.551 0
+ }
+ {
+  coords 6917.675 798.525 3499.422
+  angles 0 7.55 0
+ }
+ {
+  coords 6894.195 798.181 3515.052
+  angles 0 62.053 0
+ }
+}
+GenericEntity : "{5DAC571CF23FE3C4}Prefabs/Props/Agriculture/Beehive_01/Beehive_01_red.et" {
+ coords 7812.27 756.267 4186.86
+ angles 2.621 88.025 -1.879
+}
+StaticModelEntity : "{5FB3A1755261CA59}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_US_01.et" {
+ coords 6929.15 798.749 3490.61
+ angles 0 53.332 0
+}
+StaticModelEntity : "{6BEDCCDEE119AC7C}Prefabs/Props/Agriculture/Farm/HaystackSmall_01.et" {
+ coords 7785.927 759.798 4144.69
+}
+$grp GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_02.et" {
+ {
+  coords 6945.377 796.945 3426.949
+  angles 0 40.321 0
+ }
+ {
+  coords 6921.563 798.711 3496.88
+  angles 6.337 43.408 1.083
+ }
+}
+StaticModelEntity : "{8CDB9C117669AF4A}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_USSR_01.et" {
+ coords 8697.857 0.859 9254.288
+}
+GenericEntity : "{8ED9082B6DDF1815}Prefabs/Props/Agriculture/Beehive_01/Beehive_01_yellow.et" {
+ coords 7813.62 756.357 4186
+ angles -2.684 0 -2.681
+}
+$grp GenericEntity : "{A21FC3361A15EF9F}Prefabs/Compositions/Misc/SubCompositions/Fortifications/SandBag_Tower_S_US_01.et" {
+ {
+  coords 6950.866 796.768 3417.896
+  angles 0 88.171 0
+ }
+ {
+  coords 6891.81 798.232 3521.12
+  angles 2.571 61.877 -8.411
+ }
+}
+GenericEntity : "{A6FBA7EA8DE8CAC6}Prefabs/Compositions/Misc/SubCompositions/Fortifications/SandbagCamo_wall_High_US.et" {
+ coords 6948.902 796.445 3415.946
+ angles 0 0 0
+}
+$grp GenericEntity : "{A700AD9077074654}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Large_Soviet.et" {
+ {
+  coords 8719.114 832.219 9114.045
+  angles 0 63.596 0
+ }
+ {
+  coords 8710.569 830.742 9131.024
+  angles 0 67.459 0
+ }
+ {
+  coords 8699.988 829.597 9145.535
+  angles 0 54.768 0
+ }
+ {
+  coords 8769.063 830.413 9155.518
+  angles 0 -63.326 0
+ }
+ {
+  coords 8690.39 827.987 9161.6
+  angles -1.571 67.494 -6.107
+ }
+}
+GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+ components {
+  Hierarchy "{5D72D4247E102722}" {
+   Enabled 1
+  }
+ }
+ coords 6904.186 798.331 3507.103
+ angles -3.697 40.143 -0.435
+}
+GenericEntity : "{A9D9DDBB0BE09BD3}Prefabs/Props/Agriculture/Scarecrow_01/Scarecrow_01.et" {
+ coords 7704.491 767.363 4109.367
+ angles 0 0 0
+}
+GenericEntity : "{ABD3BE7EAE6C877D}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Light_US_01.et" {
+ coords 6900.983 798.16 3509.731
+ angles 0 41.975 0
+}
+$grp SCR_DestructibleBuildingEntity : "{C768E842A6F11CEE}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet.et" {
+ {
+  coords 8757.76 0 9107.15
+  angles -5.181 -36.6 0.511
+  {
+   GenericEntity {
+    ID "5690D0044793B50B"
+    coords 0 0 0
+    angles -5.181 -0.127 0.511
+   }
+  }
+ }
+ {
+  coords 8740.155 -0.001 9090.371
+  angles 0 -15.126 0
+  {
+   GenericEntity {
+    ID "5A04A8A7B4EC66AE"
+    coords 0 0.001 0
+    angles -4.312 -0.044 1.168
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{CBE5E0D2DC08E178}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSRMedical_01.et" {
+ coords 8727.14 0 9104.9
+ angles 0.16 68.143 -6.784
+}
+$grp GenericEntity : "{CDE80E823669F91D}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_01.et" {
+ {
+  coords 6942.949 796.399 3416.5
+  angles 0 -173.899 0
+ }
+ {
+  coords 6888.46 797.423 3525.76
+  angles -6.462 -23.432 -5.91
+ }
+}
+StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01.et" {
+ coords 3603.803 0.13 1863.124
+ angles 1.2 3.264 2.603
+}
+$grp GenericEntity : "{D320BFF57E696FE6}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidPlastic_S_US_01.et" {
+ {
+  coords 6935.479 798.918 3476.884
+  angles 0 -107.797 0
+ }
+ {
+  coords 6933.966 798.736 3481.938
+  angles 0 -107.797 0
+ }
+ {
+  coords 6936.266 798.918 3474.319
+  angles 0 -107.797 0
+ }
+ {
+  coords 6925.71 798.488 3492.442
+  angles 0 46.715 0
+ }
+ {
+  coords 6923.999 798.488 3494.547
+  angles 0 46.715 0
+  {
+   GenericEntity {
+    ID "5D72D01CA4AF92BD"
+    coords -0.011 0 -0.171
+   }
+  }
+ }
+}
+GenericEntity : "{E2255DBD0B5F477A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallPlastic_S_US_01.et" {
+ coords 6934.648 798.99 3479.481
+ angles 0 73.78 0
+}
+GenericEntity : "{E3A2574E3BC3935C}Prefabs/Props/Agriculture/Beehive_01/Beehive_01_blue.et" {
+ coords 7810.7 756.205 4186.76
+ angles -1.654 -92.859 2.768
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 6912.891 798.488 3501.226
+  angles 0 35.104 0
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 6910.722 798.488 3502.71
+  angles 0 35.104 0
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 6908.619 798.488 3504.265
+  angles 0 35.104 0
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 6906.42 798.488 3505.739
+  angles 0 35.104 0
+ }
+}
+GenericEntity : "{F9910219711EC4FE}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_long_high_US.et" {
+ coords 6897.667 798.053 3511.661
+ angles 0 28.594 0
+}
+GenericEntity : "{FB41F48964E04C5B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_US_01.et" {
+ coords 6882.732 795.789 3525.207
+ angles 39.823 66.765 9.252
+}

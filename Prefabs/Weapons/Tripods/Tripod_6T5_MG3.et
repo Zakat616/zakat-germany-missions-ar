@@ -1,0 +1,110 @@
+Turret : "{16CAF1AAD82A3127}Prefabs/Weapons/Core/Tripod_Base.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SoundComponent "{58E0961DB6C453D6}" {
+   Filenames {
+    "{A643A4362569739A}Sounds/Weapons/Tripods/6T5/Weapons_Tripod_6T5.acp"
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{C45CC9C950115B07}Assets/Weapons/Tripods/6T5/Tripod_6T5.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   ModelGeometry 1
+   Static 1
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{6920D7C9C29A1BB0}" {
+     ResourceName "{F41BA441BB78161D}anims/proc/turret.pap"
+     BoneNames {
+      "w_H_Turning_axis_tripod" "w_V_Turning_axis_tripod"
+     }
+     SimulationDistance 1000
+     AlwaysSimulateOwner 0
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      Offset 0.0828 0 -0.6072
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6920D7C9C29A1BA4}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{660A8AE656D65501}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+     m_ModelPrefabs {
+      "{BD95A93CAB78136D}Prefabs/Weapons/Tripods/dst/Tripod_6T5_Damaged.et"
+     }
+     m_fMass 12
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -50 50
+   LimitsVert -14 25
+   LimitsHorizProne -20 20
+   LimitsVertProne -8 10
+   TurretReloadPosition 500 9
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 0.5
+   m_fDist_Max 5
+   m_fDist_Min 2
+   m_fDist_Desired 3
+  }
+  TurretComponent "{6920D7C9C29A1BAF}" {
+   components {
+    SightsComponent "{6920D7C9C29A1B92}" {
+     SightsPosition PointInfo "{6920D7C9C29A1B93}" {
+      PivotID "w_weapon_holder_tripod"
+      Offset 0 0.159 -0.1975
+     }
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{6920D7C9C29A1B97}" {
+    signalsSuffix "Turret"
+   }
+   ProvideAimingType MainTurret
+   AimingMaxSpeed 1.2 1.2
+   AimingSpeedControls 0.1 0.1
+   ikTargets {
+    AnimationIKTargetInfo "{6920D7C9C29A1B95}" {
+     BindingName "LHandIKTarget"
+     PositionInfo PointInfo "{6920D7C9C29A1B9A}" {
+      PivotID "w_weapon_holder_tripod"
+      Offset -0.0781 0 -0.2778
+      Angles 45 -90 0
+     }
+    }
+    AnimationIKTargetInfo "{6920D7C9C29A1B98}" {
+     BindingName "RHandIKTarget"
+     PositionInfo PointInfo "{6920D7C9C29A7375}" {
+      PivotID "w_weapon_holder_tripod"
+      Offset 0.0295 -0.0215 -0.1531
+      Angles 0 -85 -90
+     }
+    }
+   }
+   TurretSpeed 100 120
+   TurretAcceleration 343.77 343.77
+   TurretDeceleration 687.54 687.54
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "w_weapon_holder_tripod"
+    Offset 0 0 0
+   }
+   WeaponTemplate "{409D6F10AE5031D7}Prefabs/Weapons/MachineGuns/MG3/MG_3_norail.et"
+  }
+ }
+ coords 0 0 0
+ angles 0 36 0
+}

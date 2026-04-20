@@ -1,0 +1,20 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Bundesgrenzschutz Squad"
+    m_Image "{6700C076D35C40D6}UI/PreviewImages/Groups/BLUFOR/US/1_BCR.edds"
+    m_aAutoLabels {
+     GROUPSIZE_LARGE
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_SL.et" "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_TL.et" "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_RTO.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_LAT.et" "{AE63E4B79FB45DD1}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sapper.et" "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sniper.et" "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Medic.et"
+ }
+}

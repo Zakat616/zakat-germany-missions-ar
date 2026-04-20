@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

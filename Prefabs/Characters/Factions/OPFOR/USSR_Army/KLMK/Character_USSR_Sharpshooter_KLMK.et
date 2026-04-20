@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Sharpshooter.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{068CBC4030ED64D4}UI/PreviewImages/Characters/OPFOR/USSR/KLMK/4_BCR.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
+ }
+ coords 0 0 0
+ angles 0 115 0
+}

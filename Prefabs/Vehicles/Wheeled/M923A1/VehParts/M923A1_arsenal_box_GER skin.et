@@ -1,0 +1,10 @@
+GenericEntity : "{5EA386DB110C32E3}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_arsenal_box.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SCR_ArsenalComponent "{5CDEEA63CA961245}" {
+   m_eSupportedArsenalItemModes 272
+   m_eEditableAttributeGroups AMMUNITION_MODE
+   m_eArsenalSaveType SAVING_DISABLED
+  }
+ }
+}

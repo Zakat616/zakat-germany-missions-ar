@@ -1,0 +1,39 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{6056ED165F8FA617}" {
+     m_Prefabs {
+      "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_GL.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_LAT.et" "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Medic.et" "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_RTO.et" "{AE63E4B79FB45DD1}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sapper.et" "{371FD0F920B600DD}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Scout.et" "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_SL.et" "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sniper.et" "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_TL.et" "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et" "{33A6B925C7E45437}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AT.et" "{2ABE380D1D267C84}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_Rifleman.et" "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_CC.et" "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_HeliCrew.et" "{90C99DC7B3147D3C}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_AMG.et" "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_GL.et" "{6E1E87ECA5F5A7EA}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_LMG.et" "{9A234C5857D92187}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Medic.et" "{E82A32A3203AE44A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_PL.et" "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_RTO.et" "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_Sharpshooter.et" "{85261D5B04BFA7EE}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_SL.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{6056ED165134FF27}" {
+     m_Prefabs {
+      "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew.et" "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_AAT.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_AR.et" "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_AT.et" "{426F7FAAC77A2A6D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_PL.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Rifleman.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Rifleman_Variant_1.et" "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_RTO.et" "{CBF7A398FE060335}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Sapper.et" "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Sharpshooter.et" "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_SL.et" "{333DA6244C7DA34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_SR.et" "{9C16A2371109644D}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_RTO_KLMK.et" "{A70AD7146D3FBF41}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sapper_KLMK.et" "{FC13DAA97D49137F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK.et" "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK.et" "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK.et" "{D010949BD1C8F5C5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_AR.et" "{08B8FD5AA841EB99}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_AT.et" "{DDC5EABA267F9CEF}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_GL.et" "{8B8DAB0053625E96}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Rifleman.et" "{9DA95787AB24F539}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_RTO.et" "{95F01D4D24CAEC3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Sapper.et" "{97EEB4214025FBA5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_Sharpshooter.et" "{BD986584E34C57D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_SL.et" "{C080897C86DF6B4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_SR.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{6056ED162FFB01C2}" {
+     m_sAddon ""
+     m_sSourceDirectory ""
+     m_bExposed 0
+     m_Prefabs {
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{68CB50CDA4A08161}" {
+     m_sAddon "Germmission"
+     m_Prefabs {
+      "{10F227D31D426446}Prefabs/Groups/BLUFOR/Group_DE_BGS_Post.et" "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et" "{FFDA92EF494794CC}Prefabs/Groups/BLUFOR/Group_DE_BW_Heli.et" "{093CA01C354FE17A}Prefabs/Groups/BLUFOR/Group_DE_BW_HQ.et" "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad.et" "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{691CA5861197CCDF}" {
+     m_sAddon "Germmission"
+     m_sSourceDirectory "{3EC6BA86CF7B0DD0}Prefabs/Groups/OPFOR"
+     m_Prefabs {
+      "{0771E532CF80337A}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_40LSTR_Squad.et" "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Crew.et" "{8D8C3E101A87F6FD}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Heli.et" "{74E59FCD21506034}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_HQ.et" "{0BFFA6DC9AE34A49}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Motorized_Squad.et" "{3312E53484480142}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Recon_Squad.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+SCR_AIGroup : "{0771E532CF80337A}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_40LSTR_Squad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "NVA Motorized Squad"
+    m_Image "{F159C29D16F87177}UI/PreviewImages/Groups/OPFOR/USSR/5_BCR.edds"
+    m_aAutoLabels {
+     GROUPSIZE_LARGE GROUPTYPE_MOTORIZED
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_AR.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Rifleman.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Rifleman_Variant_1.et" "{333DA6244C7DA34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_SR.et" "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Sharpshooter.et" "{CBF7A398FE060335}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_Sapper.et" "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_AT.et" "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_AAT.et" "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Infantry/Character_USSR_RTO.et"
+ }
+}
