@@ -10,7 +10,6 @@ SCR_AIGroup bwhq : "{093CA01C354FE17A}Prefabs/Groups/BLUFOR/Group_DE_BW_HQ.et" {
  }
  coords 5288.542 763.187 4520.973
  angles 0 20.729 0
- m_bSetPlayable 1
 }
 $grp SCR_AIGroup : "{10F227D31D426446}Prefabs/Groups/BLUFOR/Group_DE_BGS_Post.et" {
  bgssquad1 {
@@ -20,6 +19,7 @@ $grp SCR_AIGroup : "{10F227D31D426446}Prefabs/Groups/BLUFOR/Group_DE_BGS_Post.et
    }
    PS_GroupCallsignAssigner "{690F70C22A83D108}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
    SCR_EditableGroupComponent "{50D291F6C83FA532}" {
     m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
@@ -42,7 +42,6 @@ $grp SCR_AIGroup : "{10F227D31D426446}Prefabs/Groups/BLUFOR/Group_DE_BGS_Post.et
    "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sniper.et"
    "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Medic.et"
   }
-  m_bSetPlayable 1
  }
  bgssquad2 {
   components {
@@ -51,7 +50,7 @@ $grp SCR_AIGroup : "{10F227D31D426446}Prefabs/Groups/BLUFOR/Group_DE_BGS_Post.et
    }
    PS_GroupCallsignAssigner "{690F70C22513E9A4}" {
     m_iCompanyCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
    SCR_EditableGroupComponent "{50D291F6C83FA532}" {
     m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
@@ -74,7 +73,32 @@ $grp SCR_AIGroup : "{10F227D31D426446}Prefabs/Groups/BLUFOR/Group_DE_BGS_Post.et
    "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sniper.et"
    "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Medic.et"
   }
-  m_bSetPlayable 1
+ }
+ bgssquad3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{690F70C22513E9A4}" {
+    m_iCompanyCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     m_aAutoLabels +{
+      GROUPTYPE_INFANTRY
+     }
+    }
+   }
+  }
+  coords 7915.029 830.182 7611.319
+  angles 0 128.33 0
+  m_aUnitPrefabSlots {
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_SL.et"
+   "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_RTO.et"
+   "{371FD0F920B600DD}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Scout.et"
+   "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Sniper.et"
+   "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/West_Germany/BGS/Character_US_Medic.et"
+  }
  }
 }
 $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
@@ -477,7 +501,6 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
   }
   coords 5314.911 763.187 4513.271
   angles 0 -74.394 0
-  m_bSetPlayable 1
  }
  bwcrew3 {
   components {
@@ -491,7 +514,6 @@ $grp SCR_AIGroup : "{6781E5B8818290F0}Prefabs/Groups/BLUFOR/Group_DE_BW_Crew.et"
   }
   coords 5306.627 763.187 4515.158
   angles 0 -74.394 0
-  m_bSetPlayable 1
  }
 }
 Vehicle M923A1_tanker_PZG_GER1 : "{7D5A6B25C6622144}Prefabs/Vehicles/Wheeled/M923A1/M923A1 tanker PZG GER.et" {
@@ -520,7 +542,6 @@ SCR_AIGroup bwsquad1 : "{921BBEC64AFE5A29}Prefabs/Groups/BLUFOR/Group_DE_BW_Squa
   "{A046C10142EFB93A}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_BW_AAT.et"
   "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/West_Germany/Bundeswehr/Character_US_SF_RTO.et"
  }
- m_bSetPlayable 1
 }
 $grp Vehicle : "{9BDDB06E8D3E3D8D}Prefabs/Vehicles/Wheeled/M151A2/M151A2 PZG GER.et" {
  M151A2_PZG_GER1 {
@@ -550,7 +571,6 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
   }
   coords 5279.304 763.187 4531.556
   angles 0 111.232 0
-  m_bSetPlayable 1
  }
  bwsquad4 {
   components {
@@ -561,12 +581,7 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
   }
   coords 5282.633 763.187 4541.235
   angles 0 111.232 0
-  m_bSetPlayable 1
  }
-}
-GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
- coords 8106.98 764.062 5414.41
- angles 0 -99.233 0
 }
 $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US.et" {
  {
@@ -846,5 +861,4 @@ SCR_AIGroup bwpilots2 : "{FFDA92EF494794CC}Prefabs/Groups/BLUFOR/Group_DE_BW_Hel
  }
  coords 7870.27 764.062 5414.044
  angles 0 -100.28 0
- m_bSetPlayable 1
 }

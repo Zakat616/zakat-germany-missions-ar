@@ -40,10 +40,6 @@ $grp GenericEntity : "{A700AD9077074654}Prefabs/Structures/Military/CamoNets/Sov
   coords 8690.39 827.987 9161.6
   angles -1.571 67.494 -6.107
  }
- {
-  coords 8774.52 828.655 9172.68
-  angles -3.906 -75.047 10.965
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{C768E842A6F11CEE}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet.et" {
  {
@@ -77,6 +73,22 @@ $grp GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/Supp
  {
   coords 8107.967 764.062 5408.712
   angles 0 -99.233 0
+ }
+ {
+  coords 8106.98 764.062 5414.41
+  angles 0 -99.233 0
+ }
+ {
+  coords 8675.651 829.315 9136.713
+  angles 0 49.454 0
+ }
+ {
+  coords 8672.923 828.986 9139.168
+  angles 0 49.511 0
+ }
+ {
+  coords 8674.907 831.852 9138.478
+  angles -5.454 -40.592 0
  }
 }
 SCR_DestructibleBuildingEntity : "{CBE5E0D2DC08E178}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSRMedical_01.et" {

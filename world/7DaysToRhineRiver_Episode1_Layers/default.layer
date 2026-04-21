@@ -1,0 +1,48 @@
+SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 6129.71 641.403 10029.9
+ angles -26.082 0.467 -5.338
+ "Map Geometry Data" "{C2908D1C2D4525CD}Locations/Ore.topo"
+ "Satellite background image" "{7A80337C76B4A037}Locations/Ore.edds"
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 6654.661 626.413 9897.724
+}
+GenericWorldFogEntity {
+ coords 6760.929 661.107 7943.775
+ FakeDistFog 1
+ HeightDensity 0.981
+ DistanceDensity 0.362
+ FogHeightStart entity
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6591.747 631.245 9866.885
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 0
+   m_iStartingMinutes 40
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{690F70C75D04D395}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 0
+     m_iStartingMinutes 40
+    }
+   }
+   m_bDateOverride 1
+   m_iDay 12
+   m_iMonth 8
+   m_iYear 1988
+  }
+  TMF_BroadcastService "{692AC5ECD4E90365}" {
+  }
+ }
+ coords 6590.027 635.195 9844.85
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bFreezeTimeShootingForbiden 1
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 6404.923 628.787 10153.648
+}

@@ -22,6 +22,9 @@ SCR_ChimeraCharacter : "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/Wes
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C8EAB0985B66824A}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
     }
@@ -37,5 +40,5 @@ SCR_ChimeraCharacter : "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/Wes
   }
  }
  coords 0 0 0
- angles 0 -48.472 0
+ angles 0 -68.367 0
 }

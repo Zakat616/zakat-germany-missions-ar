@@ -25,7 +25,6 @@ $grp SCR_AIGroup : "{0771E532CF80337A}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_40L
    "{DDC5EABA267F9CEF}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_GL.et"
    "{9DA95787AB24F539}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_RTO.et"
   }
-  m_bSetPlayable 1
  }
  squad2 {
   components {
@@ -54,7 +53,6 @@ $grp SCR_AIGroup : "{0771E532CF80337A}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_40L
    "{DDC5EABA267F9CEF}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_GL.et"
    "{9DA95787AB24F539}Prefabs/Characters/Factions/OPFOR/USSR_Army/Paratroopers/Campaign_DDR_Player_SF_RTO.et"
   }
-  m_bSetPlayable 1
  }
 }
 Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
@@ -77,7 +75,6 @@ $grp SCR_AIGroup : "{0BFFA6DC9AE34A49}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Mot
   }
   coords 8737.217 833.401 9112.406
   angles 0 57.548 0
-  m_bSetPlayable 1
  }
  squad4 {
   components {
@@ -95,7 +92,6 @@ $grp SCR_AIGroup : "{0BFFA6DC9AE34A49}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Mot
   }
   coords 8731.24 833.401 9122.356
   angles 0 61.021 0
-  m_bSetPlayable 1
  }
  squad6 {
   components {
@@ -113,7 +109,6 @@ $grp SCR_AIGroup : "{0BFFA6DC9AE34A49}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Mot
   }
   coords 8724.75 830.719 9133
   angles -1.732 61.068 -3.13
-  m_bSetPlayable 1
  }
  squad7 {
   components {
@@ -131,7 +126,6 @@ $grp SCR_AIGroup : "{0BFFA6DC9AE34A49}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Mot
   }
   coords 8719.27 830.016 9143.07
   angles -2.677 61.177 -6.695
-  m_bSetPlayable 1
  }
 }
 $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Crew.et" {
@@ -152,7 +146,6 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   angles -6.319 -29.176 1.482
   m_aUnitPrefabSlots +{
   }
-  m_bSetPlayable 1
  }
  crew2 {
   components {
@@ -172,7 +165,6 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   angles -10.509 -20.39 3.047
   m_aUnitPrefabSlots +{
   }
-  m_bSetPlayable 1
  }
  crew3 {
   components {
@@ -192,27 +184,6 @@ $grp SCR_AIGroup : "{15D74947D242F2C1}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_Cre
   angles -16.938 -20.407 8.454
   m_aUnitPrefabSlots +{
   }
-  m_bSetPlayable 1
- }
- crew4 {
-  components {
-   PS_GroupCallsignAssigner "{690F70CFD1A2220E}" {
-    m_iCompanyCallsign 4
-    m_iSquadCallsign 3
-   }
-   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
-    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-     m_Image "{12EFF11605EC704D}UI/Textures/Editor/EditableEntities/Factions/DDR_Flag_Small.edds"
-     m_aAutoLabels +{
-     }
-    }
-   }
-  }
-  coords 8768.05 828.405 9175.03
-  angles 26.59 -149.587 13.236
-  m_aUnitPrefabSlots +{
-  }
-  m_bSetPlayable 1
  }
 }
 Vehicle UAZ469_AGS1 : "{210A6DED36E6C8F5}Prefabs/Vehicles/Wheeled/UAZ469/AFRF/UAZ469_AGS17.et" {
@@ -251,7 +222,6 @@ SCR_AIGroup squad5 : "{3312E53484480142}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_R
   "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK.et"
   "{9C16A2371109644D}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_RTO_KLMK.et"
  }
- m_bSetPlayable 1
 }
 Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
  coords 8698.965 829.408 9147.934
@@ -666,7 +636,6 @@ SCR_AIGroup HQ : "{74E59FCD21506034}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_HQ.et
  }
  coords 8745.49 833.768 9105.76
  angles -6.15 -20.901 1.391
- m_bSetPlayable 1
 }
 $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Weapon_01_USSR.et" {
  {
@@ -1141,7 +1110,6 @@ SCR_AIGroup pilots : "{8D8C3E101A87F6FD}Prefabs/Groups/OPFOR/40LSTR/Group_USSR_H
  }
  coords 8694.317 820.023 9242.476
  angles -5.356 0 -0.891
- m_bSetPlayable 1
 }
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
  coords 8765.98 831.784 9136.95
@@ -1195,21 +1163,5 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   }
   coords 8692.08 827.98 9162.19
   angles -8.521 61.373 -16.585
- }
- BTR4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{69121166875A3A79}" {
-      SlotTemplate InventoryStorageSlot pnv {
-       Prefab "{702BBE7B6C60F676}Prefabs/Characters/Items/NVG/TN-2.et"
-      }
-      NumSlots 3
-     }
-    }
-   }
-  }
-  coords 8773.99 828.853 9170.78
-  angles -4.981 -73.733 28.202
  }
 }

@@ -12,6 +12,13 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     }
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C8EAB0985B66824A}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
@@ -22,4 +29,6 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
+ coords 0 0 0
+ angles 0 -106.5 0
 }
