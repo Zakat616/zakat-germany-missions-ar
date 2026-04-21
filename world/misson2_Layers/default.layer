@@ -28,7 +28,8 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    }
    m_bDateOverride 1
    m_iDay 12
-   m_iMonth 6
+   m_iMonth 8
+   m_iYear 1988
   }
  }
  coords 6590.027 635.195 9844.85
