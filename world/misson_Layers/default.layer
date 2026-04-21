@@ -8,7 +8,7 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 6654.661 626.413 9897.724
 }
 GenericWorldFogEntity {
- coords 6762.017 798.226 7672.64
+ coords 6760.929 661.107 7943.775
  FakeDistFog 1
  HeightDensity 0.981
  DistanceDensity 0.362
