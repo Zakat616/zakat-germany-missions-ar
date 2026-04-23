@@ -179,6 +179,12 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       }
       NumSlots 10
      }
+     MultiSlotConfiguration "{692EDDB2C13EC676}" {
+      SlotTemplate InventoryStorageSlot showel {
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      }
+      NumSlots 4
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -231,6 +237,12 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
       }
       NumSlots 10
+     }
+     MultiSlotConfiguration "{692EDDB2C13EC676}" {
+      SlotTemplate InventoryStorageSlot showel {
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      }
+      NumSlots 4
      }
     }
    }
@@ -285,6 +297,12 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       }
       NumSlots 10
      }
+     MultiSlotConfiguration "{692EDDB2C13EC676}" {
+      SlotTemplate InventoryStorageSlot showel {
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      }
+      NumSlots 4
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -338,6 +356,12 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       }
       NumSlots 10
      }
+     MultiSlotConfiguration "{692EDDB2C13EC676}" {
+      SlotTemplate InventoryStorageSlot showel {
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      }
+      NumSlots 4
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -390,6 +414,12 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
       }
       NumSlots 10
+     }
+     MultiSlotConfiguration "{692EDDB2C13EC676}" {
+      SlotTemplate InventoryStorageSlot showel {
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      }
+      NumSlots 4
      }
     }
    }
