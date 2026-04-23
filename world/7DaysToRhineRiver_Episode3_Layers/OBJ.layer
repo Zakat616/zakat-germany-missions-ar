@@ -7,7 +7,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
       timeToComplete 150
      }
      m_ZoneController GUB_ZoneController "{692896FF7BFA2BB4}" {
-      m_sZoneEntityName "airfieldUS"
+      m_sZoneEntityName "airfield"
      }
      m_FlagController GUB_FlagController "{692896FF61464248}" {
       m_aFlagNames {
@@ -24,7 +24,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
        m_sFirstFactionKey "US"
        m_sSecondFactionKey "USSR"
        m_fComparisonMultiplier 2
-       m_iOperator GREATER
+       m_iOperator GREATER_OR_EQUALS
       }
      }
     }
@@ -33,18 +33,52 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
  }
  coords 6848.378 717.887 6083.854
 }
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- {
-  coords 6399.74 629.145 10152.284
-  m_sTitle "Аэродром удержан"
-  m_sFactionKey "USSR"
+$grp GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ ussr_losses {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
+    m_aLossLogics {
+     LossLogic "{692EB2E9AF40EB06}" {
+      m_aLosses {
+       FactionLoss "{692EB2E9A7E33BD3}" {
+       }
+      }
+      m_bUseMessage 1
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+     }
+    }
+   }
+  }
+  coords 2659.184 780.992 3346.308
  }
- {
-  coords 6389.656 629.145 10157.272
-  m_sTitle "Аэродром захвачен"
-  m_sFactionKey "US"
+ us_losses {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
+    m_aLossLogics {
+     LossLogic "{692EB2E9AF40EB06}" {
+      m_aLosses {
+       FactionLoss "{692EB2E9A7E33BD3}" {
+        m_iCriticalLossCount 7
+        m_sFactionKey "US"
+       }
+      }
+      m_bUseMessage 1
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+     }
+    }
+   }
+  }
+  coords 2662.096 781.298 3347.639
  }
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 4800
+   m_sMessage "Победа ГДР, время атаки вышло"
+  }
+ }
  coords 5850.745 717.887 6200.384
 }

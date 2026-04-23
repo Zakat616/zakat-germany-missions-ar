@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{EFAB965711619154}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_01/ControlTowerMilitary_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{5DB67A5BCFF7C5F6}" {
+   Enabled 0
+  }
+ }
+}

@@ -67,28 +67,12 @@ $grp SCR_DestructibleBuildingEntity : "{C768E842A6F11CEE}Prefabs/Structures/Mili
 }
 $grp GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
  {
-  coords 8107.467 764.062 5411.674
-  angles 0 -99.233 0
+  coords 7851.105 764.062 5380.257
+  angles 0 23.649 0
  }
  {
-  coords 8107.967 764.062 5408.712
-  angles 0 -99.233 0
- }
- {
-  coords 8106.98 764.062 5414.41
-  angles 0 -99.233 0
- }
- {
-  coords 8675.651 829.315 9136.713
-  angles 0 49.454 0
- }
- {
-  coords 8672.923 828.986 9139.168
-  angles 0 49.511 0
- }
- {
-  coords 8674.907 831.852 9138.478
-  angles -5.454 -40.592 0
+  coords 8711.156 829.259 9147.165
+  angles 0 6.35 0
  }
 }
 SCR_DestructibleBuildingEntity : "{CBE5E0D2DC08E178}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSRMedical_01.et" {

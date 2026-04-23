@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{1E7AC996BD3B73A7}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{5D7E937C4BC5C812}" {
+   Enabled 0
+  }
+ }
+}

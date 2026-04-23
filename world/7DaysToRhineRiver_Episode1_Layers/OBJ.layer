@@ -32,9 +32,6 @@ $grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFac
     m_aControlLogics {
      GUB_ZoneControlLogic "{690F6CCDF1B094D4}" {
       m_sZonePreviewName "Военный аэродром"
-      m_sSuccessObjectiveNames {
-       "obj1"
-      }
       m_Timer GUB_ZoneControlTimer "{690F6CCDEDD540AD}" {
        timeToComplete 150
       }
@@ -54,7 +51,7 @@ $grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFac
       m_aConditions {
        GUB_ZoneControlBetweenFactionsCondition "{690F6CCC95A6E524}" {
         m_fComparisonMultiplier 2
-        m_iOperator GREATER
+        m_iOperator GREATER_OR_EQUALS
        }
       }
      }
@@ -89,7 +86,7 @@ $grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFac
       m_aConditions {
        GUB_ZoneControlBetweenFactionsCondition "{690F6CCC95A6E524}" {
         m_fComparisonMultiplier 2
-        m_iOperator GREATER
+        m_iOperator GREATER_OR_EQUALS
        }
       }
      }
@@ -99,13 +96,47 @@ $grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFac
   coords 6404.489 629.443 10156.956
  }
 }
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- obj1 {
-  coords 6399.74 629.145 10152.284
-  m_sTitle "Военная база захвачена"
-  m_iScore 50
-  m_sFactionKey "USSR"
+$grp GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ us_losses {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
+    m_aLossLogics {
+     LossLogic "{692EB2E9AF40EB06}" {
+      m_aLosses {
+       FactionLoss "{692EB2E9A7E33BD3}" {
+        m_sFactionKey "US"
+       }
+      }
+      m_bUseMessage 1
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+     }
+    }
+   }
+  }
+  coords 6393.529 629.422 10149.74
  }
+ ussr_losses {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
+    m_aLossLogics {
+     LossLogic "{692EB2E9AF40EB06}" {
+      m_aLosses {
+       FactionLoss "{692EB2E9A7E33BD3}" {
+        m_iCriticalLossCount 7
+       }
+      }
+      m_bUseMessage 1
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+     }
+    }
+   }
+  }
+  coords 6390.617 629.116 10148.409
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 6389.656 629.145 10157.272
   m_sTitle "Военный аэродром защищен"
@@ -124,4 +155,13 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_iScore 50
   m_sFactionKey "USSR"
  }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 4800
+   m_sMessage "Победа Бундесвера, время атаки вышло"
+  }
+ }
+ coords 6404.923 628.787 10153.648
 }

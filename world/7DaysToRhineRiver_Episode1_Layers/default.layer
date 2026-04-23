@@ -43,6 +43,3 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bDisableChat 1
  m_bFreezeTimeShootingForbiden 1
 }
-GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
- coords 6404.923 628.787 10153.648
-}

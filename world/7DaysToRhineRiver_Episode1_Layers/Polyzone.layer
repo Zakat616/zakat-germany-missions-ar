@@ -11,6 +11,7 @@ $grp PolylineShapeEntity {
     m_aVisibleForFactions {
      "USSR"
      "US"
+     ""
     }
    }
   }
@@ -74,6 +75,7 @@ $grp PolylineShapeEntity {
     m_aVisibleForFactions {
      "USSR"
      "US"
+     ""
     }
    }
   }

@@ -1,184 +1,94 @@
-$grp PolylineShapeEntity {
- airfieldUS {
-  components {
-   PS_PolyZone "{6927532E0315B3F9}" {
-    m_cPolygonColor 0.259 0.365 0.686 1
-    m_fPolygonUVScale 0.44
-    m_mPolygonTextureBorder ""
-    m_cPolygonBorderColor 0 0.125 0.502 1
-    m_fPolygonBorderWidth 5
-    m_aVisibleForFactions {
-     "US"
-    }
+PolylineShapeEntity airfield {
+ components {
+  PS_PolyZone "{6927532E0315B3F9}" {
+   m_cPolygonColor 0.686 0.259 0.259 1
+   m_fPolygonUVScale 0.44
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "US"
+    "USSR"
+    ""
    }
   }
-  coords 8124.316 764.062 5498.344
-  Points {
-   ShapePoint "{6927532E95FF8FD7}" {
-    Position 1.271 0 -0.005
-   }
-   ShapePoint "{6927532E95FF7DF7}" {
-    Position 6.799 0 -47.954
-   }
-   ShapePoint "{6927532E88607948}" {
-    Position 22.205 0 -104.896
-   }
-   ShapePoint "{6927532E8150A99E}" {
-    Position 13.946 0.016 -150.605
-   }
-   ShapePoint "{6927532E838D024F}" {
-    Position -10.536 0 -183.935
-   }
-   ShapePoint "{6927532E86CCC4C8}" {
-    Position -43.389 0 -193.48
-   }
-   ShapePoint "{6927532EFB1CD471}" {
-    Position -66.805 0 -189.479
-   }
-   ShapePoint "{6927532EFEE7C44D}" {
-    Position -122.173 0 -179.144
-   }
-   ShapePoint "{6927532EF3B16C38}" {
-    Position -211.087 0 -176.749
-   }
-   ShapePoint "{6927532EDDEE68C7}" {
-    Position -273.577 -0.05 -181.576
-   }
-   ShapePoint "{6927532ED25B9769}" {
-    Position -337.94 -0.057 -185.162
-   }
-   ShapePoint "{6927532ED4A97DC5}" {
-    Position -393.125 -0.072 -195.502
-   }
-   ShapePoint "{6927532ED7DAEB3D}" {
-    Position -466.604 0 -164.67
-   }
-   ShapePoint "{6927532ECD8844A8}" {
-    Position -677.621 0 -211.311
-   }
-   ShapePoint "{6927532EC691048E}" {
-    Position -829.367 -0.35 -232.863
-   }
-   ShapePoint "{6927532E384C6694}" {
-    Position -851.452 -1.195 -217.853
-   }
-   ShapePoint "{6927532E3A783604}" {
-    Position -864.891 -1.331 -121.327
-   }
-   ShapePoint "{6927532E3503D7D8}" {
-    Position -643.95 -0.321 -73.43
-   }
-   ShapePoint "{6927532E2969114B}" {
-    Position -276.896 -0.173 4.42
-   }
-   ShapePoint "{6927532E2E5E7079}" {
-    Position -291.991 -0.187 95.189
-   }
-   ShapePoint "{6927532E21FD7E2E}" {
-    Position -219.525 -3.606 104.719
-   }
-   ShapePoint "{6927532E26D2A664}" {
-    Position -65.896 -3.206 113.252
-   }
-   ShapePoint "{6927532E1ED5EA26}" {
-    Position -14.499 -0.013 52.469
-   }
-   ShapePoint "{6927532E1244156F}" {
-    Position 0.978 0 1.535
-   }
-  }
-  IsClosed 1
  }
- airfieldUSSR {
-  components {
-   PS_PolyZone "{6927532E0315B3F9}" {
-    m_cPolygonColor 0.686 0.259 0.259 1
-    m_fPolygonUVScale 0.44
-    m_mPolygonTextureBorder ""
-    m_cPolygonBorderColor 0.502 0 0 1
-    m_fPolygonBorderWidth 5
-    m_aVisibleForFactions {
-     "USSR"
-    }
-   }
+ coords 8124.316 764.062 5498.344
+ Points {
+  ShapePoint "{6927532E95FF8FD7}" {
+   Position 1.271 0 -0.005
   }
-  coords 8124.316 764.062 5498.344
-  Points {
-   ShapePoint "{6927532E95FF8FD7}" {
-    Position 1.271 0 -0.005
-   }
-   ShapePoint "{6927532E95FF7DF7}" {
-    Position 6.799 0 -47.954
-   }
-   ShapePoint "{6927532E88607948}" {
-    Position 22.205 0 -104.896
-   }
-   ShapePoint "{6927532E8150A99E}" {
-    Position 13.946 0.016 -150.605
-   }
-   ShapePoint "{6927532E838D024F}" {
-    Position -10.536 0 -183.935
-   }
-   ShapePoint "{6927532E86CCC4C8}" {
-    Position -43.389 0 -193.48
-   }
-   ShapePoint "{6927532EFB1CD471}" {
-    Position -66.805 0 -189.479
-   }
-   ShapePoint "{6927532EFEE7C44D}" {
-    Position -122.173 0 -179.144
-   }
-   ShapePoint "{6927532EF3B16C38}" {
-    Position -211.087 0 -176.749
-   }
-   ShapePoint "{6927532EDDEE68C7}" {
-    Position -273.577 -0.05 -181.576
-   }
-   ShapePoint "{6927532ED25B9769}" {
-    Position -337.94 -0.057 -185.162
-   }
-   ShapePoint "{6927532ED4A97DC5}" {
-    Position -393.125 -0.072 -195.502
-   }
-   ShapePoint "{6927532ED7DAEB3D}" {
-    Position -466.604 0 -164.67
-   }
-   ShapePoint "{6927532ECD8844A8}" {
-    Position -677.621 0 -211.311
-   }
-   ShapePoint "{6927532EC691048E}" {
-    Position -829.367 -0.35 -232.863
-   }
-   ShapePoint "{6927532E384C6694}" {
-    Position -851.452 -1.195 -217.853
-   }
-   ShapePoint "{6927532E3A783604}" {
-    Position -864.891 -1.331 -121.327
-   }
-   ShapePoint "{6927532E3503D7D8}" {
-    Position -643.95 -0.321 -73.43
-   }
-   ShapePoint "{6927532E2969114B}" {
-    Position -276.896 -0.173 4.42
-   }
-   ShapePoint "{6927532E2E5E7079}" {
-    Position -291.991 -0.187 95.189
-   }
-   ShapePoint "{6927532E21FD7E2E}" {
-    Position -219.525 -3.606 104.719
-   }
-   ShapePoint "{6927532E26D2A664}" {
-    Position -65.896 -3.206 113.252
-   }
-   ShapePoint "{6927532E1ED5EA26}" {
-    Position -14.499 -0.013 52.469
-   }
-   ShapePoint "{6927532E1244156F}" {
-    Position 0.978 0 1.535
-   }
+  ShapePoint "{6927532E95FF7DF7}" {
+   Position 6.799 0 -47.954
   }
-  IsClosed 1
+  ShapePoint "{6927532E88607948}" {
+   Position 22.205 0 -104.896
+  }
+  ShapePoint "{6927532E8150A99E}" {
+   Position 13.946 0.016 -150.605
+  }
+  ShapePoint "{6927532E838D024F}" {
+   Position -10.536 0 -183.935
+  }
+  ShapePoint "{6927532E86CCC4C8}" {
+   Position -43.389 0 -193.48
+  }
+  ShapePoint "{6927532EFB1CD471}" {
+   Position -66.805 0 -189.479
+  }
+  ShapePoint "{6927532EFEE7C44D}" {
+   Position -122.173 0 -179.144
+  }
+  ShapePoint "{6927532EF3B16C38}" {
+   Position -211.087 0 -176.749
+  }
+  ShapePoint "{6927532EDDEE68C7}" {
+   Position -273.577 -0.05 -181.576
+  }
+  ShapePoint "{6927532ED25B9769}" {
+   Position -337.94 -0.057 -185.162
+  }
+  ShapePoint "{6927532ED4A97DC5}" {
+   Position -393.125 -0.072 -195.502
+  }
+  ShapePoint "{6927532ED7DAEB3D}" {
+   Position -466.604 0 -164.67
+  }
+  ShapePoint "{6927532ECD8844A8}" {
+   Position -677.621 0 -211.311
+  }
+  ShapePoint "{6927532EC691048E}" {
+   Position -829.367 -0.35 -232.863
+  }
+  ShapePoint "{6927532E384C6694}" {
+   Position -851.452 -1.195 -217.853
+  }
+  ShapePoint "{6927532E3A783604}" {
+   Position -864.891 -1.331 -121.327
+  }
+  ShapePoint "{6927532E3503D7D8}" {
+   Position -643.95 -0.321 -73.43
+  }
+  ShapePoint "{6927532E2969114B}" {
+   Position -276.896 -0.173 4.42
+  }
+  ShapePoint "{6927532E2E5E7079}" {
+   Position -291.991 -0.187 95.189
+  }
+  ShapePoint "{6927532E21FD7E2E}" {
+   Position -219.525 -3.606 104.719
+  }
+  ShapePoint "{6927532E26D2A664}" {
+   Position -65.896 -3.206 113.252
+  }
+  ShapePoint "{6927532E1ED5EA26}" {
+   Position -14.499 -0.013 52.469
+  }
+  ShapePoint "{6927532E1244156F}" {
+   Position 0.978 0 1.535
+  }
  }
+ IsClosed 1
 }
 $grp GenericEntity : "{3D78D7D606FF9818}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_NoCapture.et" {
  flag {

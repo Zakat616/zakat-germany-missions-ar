@@ -446,4 +446,34 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
+ recon3_spawn_marker {
+  coords 7846.012 869.666 6768.092
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "pick-up"
+  m_fWorldSize 200
+  m_sDescription "Третья точка спавна"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ recon2_spawn_marker {
+  coords 6987.104 719.231 7924.054
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "pick-up"
+  m_fWorldSize 200
+  m_sDescription "Вторая точка спавна"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ recon1_spawn_marker {
+  coords 9101.041 841.174 6566.357
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "pick-up"
+  m_fWorldSize 200
+  m_sDescription "Первая точка спавна"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
 }

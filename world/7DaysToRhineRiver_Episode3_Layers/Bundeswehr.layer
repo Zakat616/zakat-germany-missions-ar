@@ -26,8 +26,8 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     }
    }
   }
-  coords 9256.61 602.082 2225.76
-  angles 10.463 18.975 7.039
+  coords 9249.119 600.294 2214.538
+  angles -9.049 113.51 8.788
   m_sAttachmentGroupName "bwcrew2"
  }
  M113_APC3 {
@@ -43,8 +43,8 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     }
    }
   }
-  coords 9253.59 599.846 2212.77
-  angles 12.282 15.671 7.874
+  coords 9245.316 598.611 2207.083
+  angles -10.638 110.824 9.993
   m_sAttachmentGroupName "bwcrew3"
  }
  M113_APC4 {
@@ -60,8 +60,8 @@ $grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
     }
    }
   }
-  coords 9250.28 598.124 2202.34
-  angles 11.882 15.589 3.755
+  coords 9247.307 599.526 2211.061
+  angles -8.703 113.378 11.244
   m_sAttachmentGroupName "bwcrew4"
  }
 }
@@ -474,11 +474,23 @@ $grp Vehicle : "{9BDDB06E8D3E3D8D}Prefabs/Vehicles/Wheeled/M151A2/M151A2 PZG GER
   coords 9251.7 593.742 2153.79
   angles 5.524 -11.316 3.542
  }
+ M151A2_PZG_GER3 {
+  coords 9247.371 595.165 2175.991
+  angles 4.259 -9.693 3.131
+ }
+ M151A2_PZG_GER4 {
+  coords 9250.663 594.004 2158.489
+  angles 4.259 -12.201 3.131
+ }
+ M151A2_PZG_GER5 {
+  coords 9252.316 593.134 2141.629
+  angles 5.524 4.031 3.542
+ }
 }
 $grp Vehicle : "{A59B6CE827176166}Prefabs/Vehicles/Wheeled/M151A2/M151A2 Roof PZG GER.et" {
  M151A2_Roof_PZG_GER1 {
-  coords 9249.21 594.283 2162.02
-  angles 7.827 -12.6 -4.739
+  coords 9249.589 594.283 2163.611
+  angles 7.827 -10.121 -4.739
  }
  M151A2_Roof_PZG_GER3 {
   coords 9252.44 593.283 2146.53
@@ -486,7 +498,7 @@ $grp Vehicle : "{A59B6CE827176166}Prefabs/Vehicles/Wheeled/M151A2/M151A2 Roof PZ
  }
 }
 Vehicle M151A2_armed_PZG_GER1 : "{B45E86F64FD17B13}Prefabs/Vehicles/Wheeled/M151A2/M151A2 armed PZG GER.et" {
- coords 9251.99 592.791 2139.15
+ coords 9251.99 592.791 2136.814
  angles 5.052 7.018 5.708
 }
 $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.et" {
@@ -559,6 +571,65 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
 GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
  coords 8576.24 804.646 4107.13
  angles 2.142 -7.652 26.139
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 9247.371 595.165 2175.991
+  angles 4.259 80.307 3.131
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 9250.663 594.004 2158.489
+  angles 4.259 77.799 3.131
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 9252.316 593.134 2141.629
+  angles 5.524 94.031 3.542
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "M151A2 PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
 }
 $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US.et" {
  {

@@ -1,0 +1,11 @@
+Projectile {
+ ID "64D42BD2076E61F7"
+ components {
+  CollisionTriggerComponent "{64D42BD25C6B3A9E}" {
+   PROJECTILE_EFFECTS {
+    PS_ReplayProjectileCollisionTrigger "{692E923D38B70D65}" {
+    }
+   }
+  }
+ }
+}

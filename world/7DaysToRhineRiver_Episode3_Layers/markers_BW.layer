@@ -187,64 +187,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  {
-  coords 9256.61 602.082 2225.76
-  angles 10.463 108.975 7.039
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "APC"
-  m_fWorldSize 2.588
-  m_sDescription "#M113-EditableEntity_M113_APC_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-   GAME
-  }
-  m_iZOrder 0
- }
- {
-  coords 9253.59 599.846 2212.77
-  angles 12.282 105.671 7.874
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "APC"
-  m_fWorldSize 2.588
-  m_sDescription "#M113-EditableEntity_M113_APC_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-   GAME
-  }
-  m_iZOrder 0
- }
- {
-  coords 9250.28 598.124 2202.34
-  angles 11.882 105.589 3.755
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "APC"
-  m_fWorldSize 2.588
-  m_sDescription "#M113-EditableEntity_M113_APC_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-   "US"
-  }
-  m_aHideOnGameModeStates {
-   GAME
-  }
-  m_iZOrder 0
- }
- {
-  coords 9251.99 592.791 2139.15
+  coords 9251.99 592.791 2136.814
   angles 5.052 97.018 5.708
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
@@ -320,8 +263,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 9249.21 594.283 2162.02
-  angles 7.827 77.4 -4.739
+  coords 9249.589 594.283 2163.611
+  angles 7.827 79.879 -4.739
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -347,6 +290,63 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "Car"
   m_fWorldSize 1.844
   m_sDescription "M151A2 Roof PZG GER"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 9250.443 602.045 2213.585
+  angles 10.463 102.232 7.039
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 2.588
+  m_sDescription "#M113-EditableEntity_M113_APC_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 9246.823 600.267 2206.011
+  angles 12.282 97.52 7.874
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 2.588
+  m_sDescription "#M113-EditableEntity_M113_APC_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 9247.915 601.286 2210.108
+  angles 11.882 105.589 3.755
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 2.588
+  m_sDescription "#M113-EditableEntity_M113_APC_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "FIA"

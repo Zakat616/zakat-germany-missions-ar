@@ -510,10 +510,6 @@ $grp SCR_AIGroup : "{B9ED8E1CC65E339D}Prefabs/Groups/BLUFOR/Group_DE_BW_Squad2.e
   angles -12.863 -139.895 5.877
  }
 }
-GenericEntity : "{CA1CCD5CC00C512A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_20ft.et" {
- coords 8106.98 764.062 5414.41
- angles 0 -99.233 0
-}
 $grp GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US.et" {
  {
   components {
