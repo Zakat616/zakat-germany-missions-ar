@@ -685,6 +685,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
       }
       NumSlots 20
      }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+      }
+      NumSlots 20
+     }
      MultiSlotConfiguration "{691687E681895968}" {
       SlotTemplate InventoryStorageSlot cutters {
        Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
@@ -747,6 +753,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{692958E7F8BCEE52}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
       }
       NumSlots 20
      }
@@ -815,6 +827,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
       }
       NumSlots 20
      }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+      }
+      NumSlots 20
+     }
      MultiSlotConfiguration "{691687E681895968}" {
       SlotTemplate InventoryStorageSlot cutters {
        Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
@@ -877,6 +895,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{692958E7F8BCEE52}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
       }
       NumSlots 20
      }
@@ -945,6 +969,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
       }
       NumSlots 20
      }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+      }
+      NumSlots 20
+     }
      MultiSlotConfiguration "{691687E681895968}" {
       SlotTemplate InventoryStorageSlot cutters {
        Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
@@ -1010,6 +1040,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
       }
       NumSlots 20
      }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+      }
+      NumSlots 20
+     }
      MultiSlotConfiguration "{691687E681895968}" {
       SlotTemplate InventoryStorageSlot cutters {
        Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
@@ -1072,6 +1108,12 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
      MultiSlotConfiguration "{692958E7F8BCEE52}" {
       SlotTemplate InventoryStorageSlot rdg {
        Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E4A6C1C8BEC}" {
+      SlotTemplate InventoryStorageSlot rdg {
+       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
       }
       NumSlots 20
      }

@@ -185,6 +185,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       }
       NumSlots 4
      }
+     MultiSlotConfiguration "{69322E49EEC17785}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E484076CF27}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 20
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -243,6 +255,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 4
+     }
+     MultiSlotConfiguration "{69322E49EEC17785}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E484076CF27}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 20
      }
     }
    }
@@ -303,6 +327,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       }
       NumSlots 4
      }
+     MultiSlotConfiguration "{69322E49EEC17785}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E484076CF27}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 20
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -362,6 +398,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       }
       NumSlots 4
      }
+     MultiSlotConfiguration "{69322E49EEC17785}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E484076CF27}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 20
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -420,6 +468,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 4
+     }
+     MultiSlotConfiguration "{69322E49EEC17785}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{69322E484076CF27}" {
+      SlotTemplate InventoryStorageSlot flares {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 20
      }
     }
    }
